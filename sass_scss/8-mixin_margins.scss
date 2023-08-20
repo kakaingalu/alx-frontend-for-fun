@@ -1,13 +1,13 @@
 /* assigns margin left and right*/
-$ten: 10px;
-$fifteen: 15px;
+@mixin margin($left, $right){
+	margin-left: $left;
+	margin-right: $right;
+}
 body {
-	margin-left: $ten;
-	margin-right: $ten;
+	@include margin(10px, 10px); 
 }
 
 div {
-	margin-left: $fifteen;
-       margin-right: $fifteen;
+	@include margin(15px, 15px);
 }
 
