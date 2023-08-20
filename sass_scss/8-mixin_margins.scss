@@ -1,11 +1,13 @@
 /* assigns margin left and right*/
+$ten: 10px;
+$fifteen: 15px;
 body {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: $ten;
+	margin-right: $ten;
 }
 
 div {
-	margin-left: 15px;
-       margin-right: 15px;
+	margin-left: $fifteen;
+       margin-right: $fifteen;
 }
 

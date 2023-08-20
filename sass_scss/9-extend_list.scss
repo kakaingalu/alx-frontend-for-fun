@@ -1,12 +1,14 @@
 /* assigns font size and teaxt cilie*/
-.info, .success, .warning {
+.info {
        font-size: 12px;
 }
 
 .success {
 	color: #00FF00;
+	@extend .info;
 }
 
 .warning {
 	color: #FF0000;
+	@extend .info;
 }
